@@ -1,0 +1,420 @@
+html{
+    font-size: 62.5%;
+}
+
+#cress{
+    margin-top: 20%;
+}
+
+
+
+#cress h1,p{ 
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+}
+.desc{
+    margin-top: 5%;
+    font-size: 2rem;
+    width: 100%;
+}
+.section{
+    height: 50vh;
+}
+
+.section2{
+    height: 10vh;
+}
+
+*{
+    margin: 0%;
+}
+
+.specifications{
+    margin-top: 10%;
+    height: 80vh;
+}
+
+.specifications h1{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 2rem;
+}
+.specifications table{
+    margin: 5% auto;
+    font-size: 2.5rem;
+    text-align: justify;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.techspeci h1{
+    font-family: 'Poppins' , sans-serif;
+}
+
+.specifications td{
+    font-family: 'Poppins' , sans-serif;
+    text-align: center;
+}
+
+.button{
+    background-image: url('https://www.isro.gov.in/sites/default/files/launchers/pslv/pslv.png');
+    height: 300vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#button1{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 118px;
+    left: 135px;
+}
+
+.button button img{
+    width: 80%;   
+    cursor: pointer;
+    transition: width 250ms;
+}
+
+.button button img:hover{
+width: 90%;
+}
+
+#button2{
+    background:transparent;
+    border: none;
+    left: 140px;
+    position: absolute;
+    top: 350px;
+}
+
+#button3{
+
+    position: absolute;
+    top: 560px;
+    background:transparent;
+    border: none;
+    left: 130px;
+
+}
+
+#button4{
+    position: absolute;
+    background: transparent;
+    top: 800px;
+    left: 130px;
+    border: none;
+}
+
+#button5{
+
+    position: absolute;
+    background:transparent;
+    top: 1200px;
+    left: 130px;
+    border: none;
+
+}
+
+#button6{
+
+    position: absolute;
+    background:transparent;
+    top: 1660px;
+    left: 135px;
+    border: none;
+
+}
+.btn{
+    width: 20%;
+}
+.button{
+    display: flex;
+    color: black;
+    z-index: 1;
+}
+
+.button h1{
+    color: black;
+}
+.button p{
+    color: black;
+}
+
+.specifications{
+    text-align: center;
+}
+
+.popup{ 
+    position: relative;
+    top: 0px;
+    width: 10%;
+
+}
+
+.infbtn{
+    width: 20%;
+    font-size: 1.5rem;
+    display: none;
+    height: fit-content;
+    text-align: center;
+    padding: 2%;
+    background-color: white;
+    border-radius: 30px ;
+    z-index : 16;
+}
+
+.infhead{
+    color: black;
+}
+
+#inf1{  
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#inf2{  
+
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+#inf3{  
+
+    position: absolute;
+    top: 500px;
+    left: 200px;
+
+}
+
+#inf4{  
+
+    position: absolute;
+    top: 750px;
+    left: 200px;
+
+}
+
+#inf5{
+   position: absolute;
+   top: 1150px;
+   left: 200px; 
+}
+
+#inf6{
+    position: absolute;
+    top: 1600px;
+    left: 240px;
+}
+
+.techspeci{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    color: white;
+    justify-content: center;
+}
+
+.techspeci p{
+    color: white;
+    width: 65%;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.techspeci h1{ 
+    margin-top: 3%;
+    color: white;
+    align-self: center;
+    text-align: center;
+
+}
+
+#th1{
+    font-size: 4.5rem;
+}
+
+.techspeci table{   
+
+    font-size: 1.9rem;
+    justify-content: center;
+    text-align: center;
+    margin:2% auto;
+    border-spacing: 2rem;
+}
+
+.techspeci table td{
+    text-align: justify;
+}
+
+/* footer */
+
+
+.foot {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    /* margin-left: 20%; */
+    background-color: rgba(219, 211, 211, 0.205);
+  }
+  
+  .foot li {
+    text-align: center;
+    margin-left: 6%;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  
+  .author {
+    font-size: 12px;
+    color: #8b939b;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: rgb(68, 57, 221);
+    transition: 0.2s;
+  }
+
+
+  @media only screen and (max-width : 1024px){
+
+    
+    *{
+        color: blue;
+    }
+
+    .section{
+    height: 120vh;
+    }
+
+    #rress{
+        margin-top: 12%;
+    }
+    #cress{
+        margin-top: 32%;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    #cress h1,p{ 
+        font-size: 2rem;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    .specifications{
+        height: 60vh;
+       
+    }
+
+    .specifications h1{
+        font-family: 'Poppins' , sans-serif;
+    }
+
+    .specifications td{
+        font-family: 'Poppins' , sans-serif;
+    }
+
+    .techspeci{
+        gap:20px;
+        width: 50%;
+        margin-left: 10%;
+        font-family: 'Poppins' , sans-serif;
+        height: fit-content;
+    }
+
+    .techspeci table td{
+        font-family: 'Poppins' , sans-serif;
+    }
+
+    .techspeci h1{
+        
+        font-family: 'Poppins' , sans-serif;
+    }
+
+    .button{
+        
+        height: fit-content;
+        font-family: 'Poppins' , sans-serif;
+    }
+
+
+  }
+
+@media only screen and (max-width: 700px){ 
+    .infbtn{
+        width: 50%;
+    }
+
+
+    *{
+        color:yellow;
+    }
+
+    #rress{
+        margin-top: 20%;
+    }
+
+    #cress{
+        margin-top: 45%;
+    }
+
+    .specifications h1,td{
+
+        font-size: 2rem;
+    }
+
+   .techspeci h1 , p {
+    font-size: 1.5rem;
+   }
+   
+   .button{
+    gap: 50px;
+   }
+  }
+  
+  
+@media only screen and (max-width: 500px){ 
+
+    *{
+        color:pink;
+    }
+
+    #rress{
+        margin-top: 20%;
+    }
+
+    #cress{
+        margin-top: 50%;
+    }
+
+    .infbtn{
+        width: 50%;
+    }
+
+
+   .techspeci h1 , p {
+    font-size: 1.5rem;
+   }
+   .button{
+    gap: 60px;
+   }
+ 
+  }

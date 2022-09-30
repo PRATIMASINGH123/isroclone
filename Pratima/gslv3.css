@@ -1,0 +1,403 @@
+html{
+    font-size: 62.5%;
+}
+
+.rholder{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    height: 10vh;
+}
+
+.content-holder{
+
+    height: 100vh;
+
+}
+
+.container{
+    height: 100%;
+}
+
+#cresh{
+    
+    font-family: 'Poppins',sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.content-holder p{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.desc{
+    margin-top: 5%;
+    font-size: 3.5rem;
+    width: 100%;
+}
+.section{
+    height: fit-content;
+}
+
+.section2{
+    height: 10vh;
+}
+
+*{
+    margin: 0%;
+}
+.specifications{
+    margin-top:auto ;
+    height: 80vh;
+ 
+
+}
+.specifications h1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+.specifications table{
+    margin: 5% auto;
+    font-size: 2.5rem;
+    font-family: 'Poppins' , sans-serif;
+    text-align: justify;
+    align-items: center;
+    border-spacing: 1.7rem;
+    border-collapse: separate;
+}
+
+.mainc{
+
+    height: fit-content;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+}
+.descs h2{
+    font-size: 2.5rem;
+}
+.descs p{
+    font-size: 2rem;
+    width: 70%;
+    text-align: justify;
+}
+.techinicalspeci{
+    display: flex;
+    gap: 10%;
+    min-height: 100vh;
+    flex-direction: column;
+    gap:2%;
+}
+.speci{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgholder{
+    max-width: 20%;
+    min-width: 20%;
+}
+.techinicalspeci img{
+
+    width: 60%;
+    border-radius: 5rem;
+}
+
+.descs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+}
+
+.leftimg {
+    margin: 0 10%;
+    background: transparent;
+
+}
+
+.descs table{
+    font-size: 2rem;
+}
+/* footer */
+
+
+.foot {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    margin-top: 20%;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    /* margin-left: 20%; */
+    background-color: rgba(219, 211, 211, 0.205);
+  }
+  
+  .foot li {
+    text-align: center;
+    margin-left: 6%;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  
+  .author {
+    font-size: 12px;
+    color: #8b939b;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: rgb(68, 57, 221);
+    transition: 0.2s;
+  }
+  
+  @media only screen and ( max-width : 1024px ){
+    
+        *{
+            color: blue;   
+        }
+
+        #rres{
+            margin-top: 12%;
+        }
+
+        #cres{
+            margin-top: 10%;
+        }
+        #cresh{
+            font-family: 'Poppins',sans-serif;
+        }
+        .desc{
+            font-family: 'Poppins' , sans-serif;
+            font-size: 2.2rem;
+        }
+
+        .mainc{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 900vh;
+        }
+
+        .content-holder{
+            height: 120vh;
+        }
+
+        .specifications h1{
+            font-size: 2.6rem;
+        }
+
+        .specifications td{
+            font-size: 1.9rem;
+        }
+        .mainc{
+            height: fit-content;
+        }
+
+        
+    .speci{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .speci img{
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    .descs{
+        margin-bottom: 10%;
+    }
+
+    .descs p{
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .descs table{
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+    
+
+    
+  }
+
+  @media only screen and ( max-width: 950px){
+
+    *{
+        color:pink;
+    }
+
+        #rres{
+            margin-top: 20%;
+        }
+    .content-holder{
+        width: 100%;
+    }
+    .content-holder p{
+        font-size: 2.3rem;
+        width: 100%;
+    }
+
+    .content-holder{
+        height: 150vh;
+    }
+
+    .mainc{
+        
+        height: fit-content;
+    }
+
+
+    .speci{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .speci img{
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    .descs{
+        margin-bottom: 10%;
+       
+        
+    }
+
+    .descs h2{
+        font-size: 2rem;
+    }
+
+    .descs p{
+        margin: 0 auto;
+        text-align: justify;
+        font-size: 1.7rem;
+    }
+
+    .descs table{
+        margin-top: 5%;
+        margin-bottom: 10%;
+        font-size: 1.7rem;
+    }
+
+  }
+
+  @media only screen and ( max-width: 720px) {
+
+    *{
+        color: green;
+    }
+
+    #rres{
+        margin-top: 30%;
+    }
+    
+    .content-holder{
+        height: 150vh;
+    }
+
+    .content-holder p{
+        font-size: 2.2rem;
+    }
+
+    .specifications{
+        height: 60vh;
+    }
+
+    .specifications h1{
+        font-size: 2.2rem;
+    }
+
+    .specifications td{
+        font-size: 1.5rem;
+    }
+
+    .mainc{
+        height: fit-content;
+    }
+  }
+
+  @media only screen and ( max-width: 400px) {
+
+    *{
+        color: yellow;
+    }
+    
+    #rres{
+        margin-top: 80%;
+        gap: 7%;
+    }
+    
+    .content-holder{
+        height: 190vh;
+    }
+
+    .content-holder p{
+        height: 180vh;
+        font-size: 2.1rem;
+        width: 100%;
+    }
+    .mainc{
+        height: fit-content;
+    }
+
+
+  }
+
+  
+  @media only screen and ( max-width: 300px) {
+
+    #rres{
+        margin-top: 90%;
+        width: 100%;
+        gap: 5%;
+        
+    }
+
+
+    *{
+        color: red;
+    }
+    
+    .content-holder{
+        height: 200vh;
+    }
+    .content-holder p{
+        font-size: 1.8rem;
+    }
+    .mainc{
+        height: fit-content;
+    }
+
+
+  }
+
